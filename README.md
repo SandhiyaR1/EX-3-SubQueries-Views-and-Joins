@@ -185,12 +185,12 @@ select s.name,c.cust_name,c.city,s.commission from salesman1 s right join custom
 ```
 ### OUTPUT:
 
-Left Join:
+### Left Join:
 
 ![271565038-55269f4a-2362-4e22-a32a-f12e403328bb](https://github.com/SandhiyaR1/EX-3-SubQueries-Views-and-Joins/assets/113497571/6db7cbb4-1ec2-422e-b55b-d5754eff7a42)
 
 
-Right Join:
+### Right Join:
 
 ![271565231-4c457c84-8c15-4121-ad37-e2c1292dcab3](https://github.com/SandhiyaR1/EX-3-SubQueries-Views-and-Joins/assets/113497571/121916de-d226-48cd-924e-764fed1623c5)
 
