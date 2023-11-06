@@ -1,6 +1,6 @@
 # EX-3-SubQueries-Views-and-Joins
-# DATE:
-# Aim:
+### DATE:
+### Aim:
 To view implement SubQueries, Views and Joins.
 
 ### Create employee Table
@@ -90,7 +90,6 @@ SELECT ename,job FROM EMP WHERE deptno = 10 AND job IN (SELECT job FROM EMP WHER
 ### OUTPUT:
 ![image](https://github.com/SandhiyaR1/EX-3-SubQueries-Views-and-Joins/assets/113497571/b1df97f3-d755-4d35-82e8-77dfcfb9f5b3)
 
-
 #### Q4) Create a view empv5 (for the table emp) that contains empno, ename, job of the employees who work in dept 10.
 ### QUERY:
 ```sql
@@ -108,7 +107,6 @@ SELECT * FROM empv30;
 ```
 ### OUTPUT:
 ![image](https://github.com/SandhiyaR1/EX-3-SubQueries-Views-and-Joins/assets/113497571/628fb414-33ef-498b-ba4d-fddef73f0b3a)
-
 
 ### Q6) Update the view empv5 by increasing 10% salary of the employees who work as ‘CLERK’. Also confirm the modifications in emp table
 ### QUERY:
@@ -196,5 +194,5 @@ select s.name,c.cust_name,c.city,s.commission from salesman1 s right join custom
 ![271565231-4c457c84-8c15-4121-ad37-e2c1292dcab3](https://github.com/SandhiyaR1/EX-3-SubQueries-Views-and-Joins/assets/113497571/121916de-d226-48cd-924e-764fed1623c5)
 
 
-# Result:
+### Result:
 To create a database and implementation of views,subqueries and joins is executed successfully.
